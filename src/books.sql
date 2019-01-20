@@ -29,6 +29,7 @@ SET time_zone = "+00:00";
 CREATE TABLE IF NOT EXISTS `books` (
   `id` int(10) NOT NULL AUTO_INCREMENT,
   `callno` varchar(100) NOT NULL,
+  `isbn` varchar(17),
   `name` varchar(100) NOT NULL,
   `author` varchar(100) NOT NULL,
   `publisher` varchar(100) NOT NULL,
